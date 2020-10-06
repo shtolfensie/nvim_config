@@ -4,6 +4,7 @@
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
+  "python.jediPath": "/home/filip/.local/lib/python3.8/site-packages",
 
   "snippets.ultisnips.directories":
   [

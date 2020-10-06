@@ -24,5 +24,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " vim statusline - airline (airline themes might not be needed)
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    " vim-devicons
+    Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
