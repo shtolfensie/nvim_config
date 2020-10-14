@@ -50,3 +50,6 @@ nnoremap <Leader>O O<Esc>^Da
 " Copy selected and paste from system clipboard (requires gvim?)
 vnoremap <C-c> "*Y :let @+=@*<CR>
 map <C-p> "+P
+
+" To close only the current buffer
+nnoremap <leader>x :bp<cr>:bd #<cr>

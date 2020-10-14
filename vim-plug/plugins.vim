@@ -26,5 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " vim-devicons
     Plug 'ryanoasis/vim-devicons'
+    " debugger
+    "Plug 'puremourning/vimspector'
 
 call plug#end()
