@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/mnt/e/Filip/Fit/s2/ivs/prezentace_text'
+let g:netrw_dirhist_5='/home/filip/.config/nvim'
+let g:netrw_dirhist_4='/home/filip/.config/nvim/vim-plug'
+let g:netrw_dirhist_3='/mnt/e/Filip/Fit/izp/projekt1/.git'
 let g:netrw_dirhist_2='/mnt/e/filip/fit/izp/cv2/cykly'
 let g:netrw_dirhist_1='/home/filip/.config/nvim/.git'

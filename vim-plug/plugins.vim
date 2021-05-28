@@ -8,6 +8,9 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "Golang
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
@@ -16,6 +19,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'joshdick/onedark.vim'
+    Plug 'morhetz/gruvbox'
+
     " Intellisense
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}   
@@ -26,7 +31,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " vim-devicons
     Plug 'ryanoasis/vim-devicons'
+
+    " Markdown preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
     " debugger
     "Plug 'puremourning/vimspector'
+    
+    "Git integration
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+
+    "Seesion resotre - works with tmux-resurrect
+    Plug 'tpope/vim-obsession'
 
 call plug#end()

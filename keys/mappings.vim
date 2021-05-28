@@ -53,3 +53,8 @@ map <C-p> "+P
 
 " To close only the current buffer
 nnoremap <leader>x :bp<cr>:bd #<cr>
+
+" Insert empty line without entering insert mode
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
+" This doesn't seem to work. it inserts the line bellow like the first one.
