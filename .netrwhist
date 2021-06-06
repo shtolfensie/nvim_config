@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/mnt/e/Filip/Code/python/psi/simple_flask_db/templates'
 let g:netrw_dirhist_6='/mnt/e/Filip/Fit/s2/ivs/prezentace_text'
 let g:netrw_dirhist_5='/home/filip/.config/nvim'
 let g:netrw_dirhist_4='/home/filip/.config/nvim/vim-plug'

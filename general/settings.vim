@@ -40,5 +40,11 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
+" Python folding
+au BufNewFile,BufRead *.py set foldmethod=indent
+
+" Stop folding on startup
+set foldlevelstart=99
+
 " You can't stop me
 cmap w!! w !sudo tee %

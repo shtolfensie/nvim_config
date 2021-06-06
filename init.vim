@@ -38,6 +38,9 @@ autocmd BufEnter *.asm :setlocal filetype=nasm
 
 let g:vim_markdown_new_list_item_indent = 0
 
+" should help with python in venv
+let g:python3_host_prog='/usr/bin/python3'
+
 packadd termdebug
 
 let g:termdebug_wide=1

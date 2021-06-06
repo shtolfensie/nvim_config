@@ -2,13 +2,13 @@
   "coc.preferences.formatOnSaveFiletypes": ["css", "purescript","markdown", "javascript", "graphql", "html", "yaml", "python"],
   "clangd.compilationDatabasePath":"../build/",
 
-  // python config
-  "python.formatting.provider": "black",
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  //"python.jediPath": "/home/filip/.local/lib/python3.8/site-packages",
-  "python.jediEnabled": false,
-  "python.analysis.diagnosticEnabled": true,
+  // coc-python config
+  //"python.formatting.provider": "black",
+  //"python.linting.enabled": true,
+  //"python.linting.pylintEnabled": true,
+  ////"python.jediPath": "/home/filip/.local/lib/python3.8/site-packages",
+  //"python.jediEnabled": false,
+  //"python.analysis.diagnosticEnabled": true,
 
   "snippets.ultisnips.directories":
   [
@@ -21,7 +21,7 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   //"explorer.openAction.strategy": "tab",
-  "explorer.keyMappings": {
+  "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },

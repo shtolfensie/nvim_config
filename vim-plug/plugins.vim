@@ -8,6 +8,9 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " comment and uncomment
+    Plug 'tpope/vim-commentary'
+
     "Golang
     Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
@@ -34,6 +37,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Markdown preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
+    " Html
+    Plug 'mattn/emmet-vim'
+
+    " Python
+    Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} " python syntax highlighting
+    Plug 'Vimjas/vim-python-pep8-indent'
 
     " debugger
     "Plug 'puremourning/vimspector'
