@@ -11,6 +11,8 @@ source $HOME/.config/nvim/themes/airline.vim
 
 source $HOME/.config/nvim/plug-config/signify.vim
 
+source $HOME/.config/nvim/plug-config/markdown-preview.vim
+
 "source $HOME/.config/nvim/plug-config/vimspector.vim
 ":imap jk <Esc>
 set number
