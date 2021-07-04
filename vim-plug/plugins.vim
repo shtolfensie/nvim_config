@@ -44,6 +44,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Python
     Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'} " python syntax highlighting
     Plug 'Vimjas/vim-python-pep8-indent'
+    " Plug 'codota/tabnine-vim'
 
     " debugger
     "Plug 'puremourning/vimspector'

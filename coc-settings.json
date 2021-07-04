@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "purescript","markdown", "javascript", "graphql", "html", "yaml", "python"],
+  "coc.preferences.formatOnSaveFiletypes": ["css", "purescript","markdown", "javascript", "graphql", "html", "yaml", "json","python"],
   "clangd.compilationDatabasePath":"../build/",
 
   // coc-python config
@@ -17,6 +17,17 @@
 
   "python.formatting.provider": "black",
   "python.formatting.blackArgs": ["--diff", "--quiet", "--fast"],
+
+  // vue.js
+  "vetur.dev.vlsPath": "/home/filip/.npm-global/lib/node_modules/vls/",
+  "vetur.validation.templateProps": true,
+
+  // tabnine
+
+  /* "tabnine.disable_file_regex": [ */
+  /*   "[.]vue$" */
+  /* ], */
+
 
   "snippets.ultisnips.directories":
   [
